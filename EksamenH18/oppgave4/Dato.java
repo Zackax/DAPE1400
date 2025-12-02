@@ -1,4 +1,4 @@
-package EksamenH18;
+package EksamenH18.oppgave4;
 
 class Dato {
 				private int dag,	måned,	år;
@@ -19,5 +19,8 @@ class Dato {
 				
 				//	skriv	en	toString	metode	slik	at	datoen	kommer	ut	på	følgende	format:
 				//	dd	månedsnavn	år,	f.eks	1	januar	2019
-				
+				public String toString(){
+					String dato  = "" + this.dag + " " + månedsnavn(this.måned) + " " + this.år;
+					return dato;
+				}
 }
