@@ -31,7 +31,7 @@ public class GreenhouseGas {
     GreenhouseGas n2o = new GreenhouseGas("dinitrogenoksid",298,8.44);
     System.out.println(co2);
     ArrayList <GreenhouseGas> gasser = new ArrayList<>(Arrays.asList(co2,ch4,n2o));
-    GreenhouseGas [] arrayListe = {co2,ch4,n2o};
+    //GreenhouseGas [] arrayListe = {co2,ch4,n2o};
     double sum = 0;
     for (GreenhouseGas greenhouseGas : gasser) {
       sum += greenhouseGas.calculateEquivalent();
